@@ -1,0 +1,104 @@
+
+.about {
+    background: radial-gradient(#e1efff, black);
+    margin-top: 25px;
+  }
+  .title{
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 456px;
+       
+    font-size: 40px;
+    font-weight: 500;
+   
+    font-family: "Ubuntu", sans-serif;
+   
+    
+  }
+  .about .title::after {
+    content: "—Who I Am ?—";
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: white;
+    position: absolute;
+    margin-left: -170px;
+    margin-top: 55px;
+    width: 200px;
+    font-size: 20px;
+  
+   
+  }
+  
+  .about .about-content .left {
+    width: 45%;
+  }
+  
+  .about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 190px;
+    margin-left: 40px;
+  }
+  
+  .about .about-content .right {
+    width: 55%;
+  }
+  
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+   margin-left: 490px;
+   width: 500px;
+   position: absolute;
+   margin-top: -400px;
+  }
+  .text-1{
+    line-height: 100px;
+    margin-top: 100px;
+  }
+  
+  
+  .about .about-content .right .text span {
+  
+    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+   
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about .about-content .right p {
+    text-align: justify;
+    margin-left: 490px;
+    width: 650px;
+    margin-top: -330px;
+    position: absolute;
+   
+  }
+  .about .about-content .right a {
+    display: inline-block;
+    background: #1e3551;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-top: -170px;
+    margin-left: 500px;
+    border-radius: 6px;
+    border: 2px solid #1e3551;
+    transition: all 0.3s ease;
+   
+   
+  }
+  
+  .about .about-content .right a:hover {
+    color: #1e3551;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+   
+  }
+  

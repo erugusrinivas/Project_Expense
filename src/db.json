@@ -1,0 +1,30 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "username": "john_doe",
+        "mobileNumber": "123-456-7890",
+        "email": "john.doe@example.com",
+        "website": "johndoe.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "username": "jane_smith",
+        "mobileNumber": "987-654-3210",
+        "email": "jane.smith@example.com",
+        "website": "janesmith.com"
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "username": "bob_johnson",
+        "mobileNumber": "555-123-4567",
+        "email": "bob.johnson@example.com",
+        "website": "bobjohnson.com"
+      }
+     
+    ]
+  }
+  
