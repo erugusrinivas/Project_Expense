@@ -1,4 +1,4 @@
-/* src/Login.css */
+
 
 .container {
   display: flex;
@@ -11,24 +11,19 @@
 
 }
 
-/* Chrome, Safari, Edge, Opera */
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
+
 
 
 form {
   width: 400px;
-  /* padding: 150px; */
   margin-top: 120px;
-  /* border: 1px solid #ccc;  */
-  /* border-radius: 8px;  */
-  /* height: 290px; */
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
 }
 
 label {
@@ -37,16 +32,9 @@ label {
 }
 
 input {
-  /* width: 100%;
-  padding: 8px;
-  margin-bottom: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px; */
-
   width: 100%;
   padding: 8px;
   margin-bottom: 16px;
-  /* border: 1px solid #ccc; */
   border-radius: 4px;
   border-style: none;
 }
@@ -54,17 +42,11 @@ input {
 button {
   width: 100%;
   padding: 10px;
-  /* background-color: black; */
   color: #fff;
   border: none;
   border-radius: 10px;
   cursor: pointer;
 }
-
-/* button:hover {
-  background-color: #0056b3;
-} */
-
 .eye {
   position: absolute;
   margin-top: -48px;
@@ -72,12 +54,9 @@ button {
   cursor: pointer;
 
 }
-
-
 .eye:hover {
   color: red;
 }
-
 #check {
   position: absolute;
   margin-left: -394px;
@@ -87,14 +66,11 @@ button {
   border-radius: 3px;
   background-color: #fff;
 }
-
-/* Style the checkbox when checked */
 #check:checked {
   background-color: #4CAF50;
-  /* Change background color when checked */
 }
 
-/* Style the label */
+
 label {
   cursor: pointer;
   /* Make the label clickable */
@@ -380,12 +356,6 @@ nav::after {
 }
 
 #form {
-  /* line-height: 12px;
-  width: 400px;
-
-  margin-top: 120px;
-
-  height: 423px; */
   line-height: 15px;
   width: 400px;
   margin-top: 83px;
@@ -444,17 +414,6 @@ input[type="text"] {
   position: absolute;
   margin-left: 53px;
 }
-
-/* #Google{
-  border-radius: 100px;
-  width: 10px;
-  background-color:rgba(0, 0, 0, 0);
-  color:rgba(0, 0, 0, 0);
-  z-index: 20;
-  margin-top: 5px;
-  position: absolute;
-  margin-left: 20px;
-} */
 #Subb {
   background-color: #232323;
 
