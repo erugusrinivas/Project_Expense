@@ -1,49 +1,3 @@
-// import { Simulate } from "react-dom/test-utils"
-// import { useState } from 'react'
-// import axios from 'axios'
-// import { useNavigate } from 'react-router-dom';
-// import {Link} from "react-router-dom";
-// const SignUp=()=>{
-//     const [name, setName]=useState()
-//     const[Password,setPassword]=useState()
-//     const[ConfirmPassword,setConfirmPassword]=useState()
-//     const[Email,setEmail]=useState()
-//     const[MobileNumber,setMobileNumber]=useState()
-//     const navigate = useNavigate()
-
-//     const handleSubmit=(e)=>{
-//         e.preventDefault()
-//         axios.post('http://localhost:3001/SignUp',{name,Password,ConfirmPassword,Email,MobileNumber})
-//         .then(result=>{console.log(result)
-//             navigate('/Login')
-//     })
-//         .catch(err=>console.log(err))
-//     }
-//     return(
-//         <div>
-//             <h1>RegistrationForm</h1>
-//     <form onSubmit={handleSubmit}>
-//     <label for="UserName">UserName:</label>
-//     <input type="text" id="username" name="email" size="30px" autoComplete="off" onChange={(e)=>setName(e.target.value)}></input>
-//     <label for="password">Password:</label>
-//         <input type="password" id="password" name="email" required onChange={(e)=>setPassword(e.target.value)}></input>
-//         <label for="confirmPassword">Confirm Password:</label>
-//         <input type="password" id="confirmPassword" name="email" required autoComplete="off" onChange={(e)=>setConfirmPassword(e.target.value)}></input>
-//         <div id="message" class="message"></div>
-//     <label for="Email">Email:</label>
-//     <input type="email" id="email" name="email"size="30"autoComplete="off" onChange={(e)=>setEmail(e.target.value)}></input>
-
-//     <label for="Mobile Number">MobileNumber:</label>
-//     <input type="number" id="mobileNumber"name="email" size="30" onChange={(e)=>setMobileNumber(e.target.value)}></input>
-//     <button>Sign Up</button>
-//     </form>
-//     <Link to="/Login" ><button>Login</button></Link>
-
-//         </div>
-//     )
-// }
-// export default SignUp;
-
 
 import './Signin.css';
 import { useState } from 'react'
@@ -70,10 +24,6 @@ const Login = () => {
             
             return;
         }
-        // if (Password !== ConfirmPassword) {
-        //     alert("Passwords do not match.");
-        //     return;
-        // }
         if (!/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/.test(Email)) {
             alert("invalid email format.");
             return;

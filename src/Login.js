@@ -1,11 +1,3 @@
-// import login from "./login";
-
-// import {Link,useNavigate} from "react-router-dom";
-// const Login=()=>{
-//     const navigate = useNavigate();
-//   const navigateToLogin = ()=>{
-//     navigate("/SignUp");
-//   };
 
 import './Login.css';
 import React from "react";
