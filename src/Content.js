@@ -9,9 +9,6 @@ import RemainingBudget from './components/Remaining';
 import { Link } from 'react-router-dom';
 // import Graph from './components/Graph';
 
-
-
-
 const Content = () => {
     const [expenses, setExpenses] = useState([]);
 
